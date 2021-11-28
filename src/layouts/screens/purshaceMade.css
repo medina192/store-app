@@ -1,0 +1,97 @@
+
+.background-purshace-screen{
+    background-color: #e8e8e8;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-purshace-made{
+    background-color: white;
+    border-radius: 0.8rem;
+    padding: 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 15px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 15px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 15px -5px rgba(0,0,0,0.75);
+}
+
+.iconPurchase{
+    font-size: 7rem;
+    margin-bottom: 2.5rem;
+}
+
+.congratulations-message{
+    font-size: 2.2rem;
+    max-width: 30rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.notification-message{
+    font-size: 1.8rem;
+    max-width: 30rem;
+    text-align: justify;
+    margin-bottom: 3.5rem;
+}
+
+.button-return-home{
+    background-color: #000000;
+    border: none;
+    font-size: 1.8rem;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+@media(max-width: 640px){
+    .card-purshace-made{
+        background-color: white;
+        width: 90%;
+        height: 90%;
+        border-radius: 0.8rem;
+        padding: 4rem 6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0px 2px 15px -5px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 2px 15px -5px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 2px 15px -5px rgba(0,0,0,0.75);
+    }
+    
+    .iconPurchase{
+        font-size: 5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .congratulations-message{
+        font-size: 1.7rem;
+        max-width: 30rem;
+        text-align: justify;
+        margin-bottom: 1rem;
+    }
+    
+    .notification-message{
+        font-size: 1.4rem;
+        max-width: 30rem;
+        text-align: justify;
+        margin-bottom: 1.5rem;
+    }
+    
+    .button-return-home{
+        background-color: #000000;
+        border: none;
+        font-size: 1.3rem;
+        color: white;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        cursor: pointer;
+    }
+}
